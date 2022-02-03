@@ -32,7 +32,6 @@ namespace _2022__ExMAP__VaradiPatricia_10_
 
             Console.WriteLine();
             Console.Write("Nr MAX : ");
-
             int k = 0;
             while (k * (k - 1) / 2 < m) k++;
             Console.Write(n - k);

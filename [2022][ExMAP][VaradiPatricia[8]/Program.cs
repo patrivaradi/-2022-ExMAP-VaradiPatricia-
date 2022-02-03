@@ -61,9 +61,7 @@ namespace _2022__ExMAP__VaradiPatricia_8_
             for (int i = 1; i <= y; i++)
             {
                 afisat[i - 1] = n[i] + " ";
-                //Console.Write(n[i]+" ");
             }
-
             for (int i = 0; i < afisat.Length; i++)
                 scri.Write(afisat[i]);
             scri.WriteLine();
