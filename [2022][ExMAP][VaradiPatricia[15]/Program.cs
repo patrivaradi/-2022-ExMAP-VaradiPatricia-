@@ -17,7 +17,7 @@ namespace _2022__ExMAP__VaradiPatricia_15_
         static void Main(string[] args)
         {
             Console.WriteLine("Introduceti n = ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()); ;
             Console.WriteLine("Introduceti m = ");
             int m = int.Parse(Console.ReadLine());
             int[,] mat = new int[n, m];

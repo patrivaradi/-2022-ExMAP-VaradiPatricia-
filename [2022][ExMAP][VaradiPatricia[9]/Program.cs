@@ -45,7 +45,6 @@ namespace _2022__ExMAP__VaradiPatricia_9_
             double y2 = double.Parse(Console.ReadLine());
             Console.Write("z2 :");
             double z2 = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"{x2}x+{y2}y+{z2}=0");
             if (y2 < 0 && z2 > 0)
             {
                 Console.WriteLine($"v2= {x2}i{y2}j+{z2}k");
@@ -66,7 +65,6 @@ namespace _2022__ExMAP__VaradiPatricia_9_
             Console.WriteLine();
 
             Console.Write($"Produsul vectorial :  ");
-            // double v1xv2 = (y1*z2)i + (z1*x2)j + (x1*y2)k - (x2*y1)i - (z1*y2)j - (x1*z2)k;
             double i = (y1 * z2) - (z1 * y2);
             double j = (z1 * x2) - (x1 * z2);
             double k = (x1 * y2) - (x2 * y1);
